@@ -4,6 +4,9 @@
 
 import RX = require('reactxp');
 
+import RN = require('react-native');
+console.log('Dimensions', RN.Dimensions.get('width'));
+
 import ToggleSwitch from './ToggleSwitch';
 
 interface AppState {
